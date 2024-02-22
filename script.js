@@ -29,7 +29,7 @@ document.onkeydown = function (e) {
         student.classList.add('animateStudentup')
         setTimeout(() => {
             student.classList.remove('animateStudentup')
-        }, 600);
+        }, 850);
     }
 
     if (e.keyCode == 39) {
@@ -37,7 +37,7 @@ document.onkeydown = function (e) {
 
         let sleft = parseInt(window.getComputedStyle(student, null).getPropertyValue('left'))
         // console.log(sleft);
-        student.style.left = sleft + 102 + 'px'
+        student.style.left = sleft + 150 + 'px'
 
 
     }
@@ -50,7 +50,7 @@ document.onkeydown = function (e) {
 
         let sright = parseInt(window.getComputedStyle(student, null).getPropertyValue('left'))
         // console.log(sright);
-        student.style.left = sright - 102 + 'px'
+        student.style.left = sright - 150 + 'px'
     }
 }
 

@@ -86,6 +86,8 @@ body {
   position: absolute;
   bottom: 0px;
   left: 10vw;
+
+  transition: left 0.7s linear, right 0.7s linear;
 }
 
 .obstacle {
@@ -100,7 +102,7 @@ body {
 }
 
 .animateStudentup {
-  animation: upar 0.6s linear;
+  animation: upar .8s linear;
 }
 
 @keyframes upar {
@@ -109,7 +111,7 @@ body {
   }
 
   50% {
-    bottom: 500px;
+    bottom: 30vw;
   }
 
   100% {
@@ -118,7 +120,7 @@ body {
 }
 
 .obstacleAni {
-  animation: obstacleAni 5s linear infinite;
+  animation: obstacleAni 6s linear infinite;
 }
 
 @keyframes obstacleAni {
@@ -127,7 +129,7 @@ body {
   }
 
   100% {
-    left: -1vw;
+    left: -10vw;
   }
 }
 
