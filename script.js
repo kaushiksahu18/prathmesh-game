@@ -11,7 +11,7 @@ let bgMusic = new Audio('music/bg-music.mpeg')
 let endAudio = new Audio('music/end.mpeg')
 setTimeout(() => {
     bgMusic.play()
-     console.log('playing'); 
+    console.log('playing'); 
 }, 1000);
 // let studentMovement = true
 
